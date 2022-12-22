@@ -211,4 +211,6 @@ public abstract class CodeOutput<T> where T : CodeOutput<T>
     {
         return Line($"private {value}");
     }
+
+    public abstract Boolean IsBuiltIn(String value);
 }
